@@ -84,18 +84,21 @@ void PrintList(Node *head) {
     printf("%d\n", p->SatelliteData);
 }
 
-void ClearList(Node *head)
-{
-    if (head == NULL) exit; 
-    Node *Next;
-    while(head->next != NULL)
-    {
-        Next = head->next;
-        free(head);
-        head = Next;
-    }
+void ClearList(Node *head) {
+    if (head != NULL) {
+    	Node *Next;
+    	while(head->next != NULL)
+    	{
+    	    Next = head->next;
+    	    free(head);
+	        head = Next;
+	    }
+	}
 }
+
 int main() {
+	freopen("test.in", "r", stdin);
+	freopen("test.out", "w", stdout);
     Node *List = CreateList();
     PrintList(List);
     Insert(List, 4, 3);
