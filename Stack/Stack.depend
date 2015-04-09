@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1428568037 source:c:\users\fallenmriver\desktop\cb\stack\main.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	"Stack.h"
+
+1428568492 c:\users\fallenmriver\desktop\cb\stack\include\stack.h
+	<vector>
+
+1428568471 source:c:\users\fallenmriver\desktop\cb\stack\src\stack.cpp
+	"Stack.h"
+	<vector>
+
