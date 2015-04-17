@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1429257151 source:c:\c_cpp\vclass\projects\project1\main.cpp
+	<iostream>
+	"Node.h"
+
+1429257105 c:\c_cpp\vclass\projects\project1\include\node.h
+	<vector>
+
+1429257123 source:c:\c_cpp\vclass\projects\project1\src\node.cpp
+	"Node.h"
+
