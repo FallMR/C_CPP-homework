@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1430144292 source:c:\users\fallenmriver\desktop\cb\iterator\main.cpp
+	<iostream>
+	<Windef.h>
+	"Stack.h"
+	"Iterator.h"
+
+1430144239 c:\users\fallenmriver\desktop\cb\iterator\include\stack.h
+	"Iterator.h"
+
+1430144106 c:\users\fallenmriver\desktop\cb\iterator\include\iterator.h
+	"Stack.h"
+
+1430144107 source:c:\users\fallenmriver\desktop\cb\iterator\src\iterator.cpp
+	"Iterator.h"
+	<stdio.h>
+
+1430144260 source:c:\users\fallenmriver\desktop\cb\iterator\src\stack.cpp
+	"Stack.h"
+
