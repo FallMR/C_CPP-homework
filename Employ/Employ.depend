@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1430189558 source:c:\users\fallenmriver\desktop\cb\employ\main.cpp
+	<iostream>
+	"Employee.h"
+	"Sales.h"
+
+1430189444 c:\users\fallenmriver\desktop\cb\employ\include\sales.h
+	"Employee.h"
+
+1430186270 c:\users\fallenmriver\desktop\cb\employ\include\employee.h
+
+1430186221 source:c:\users\fallenmriver\desktop\cb\employ\src\employee.cpp
+	"Employee.h"
+
+1430189445 source:c:\users\fallenmriver\desktop\cb\employ\src\sales.cpp
+	"Sales.h"
+
